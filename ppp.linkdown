@@ -1,0 +1,14 @@
+#!/bin/sh 
+# 
+# IP is up now... 
+# 
+interface=$1 
+device=$2 
+speed=$3 
+local_ip=$4 
+remote_ip=$5
+
+php /var/www/html/app/check.php $5 0
+
+
+
